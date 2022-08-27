@@ -1,0 +1,181 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: hsl(0deg, 0%, 95%);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5rem;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+}
+@media screen and (max-width: 740px) {
+  .container {
+    flex-direction: column;
+  }
+}
+.container__sedan {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: hsl(31deg, 77%, 52%);
+  padding: 2rem 4.2rem 2rem 2.5rem;
+  max-width: 170px;
+}
+@media screen and (max-width: 740px) {
+  .container__sedan {
+    max-width: 240px;
+  }
+}
+.container__sedan-header {
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 400;
+  color: hsl(0deg, 0%, 95%);
+  text-transform: uppercase;
+  margin-top: 2rem;
+}
+.container__sedan-text {
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 400;
+  color: hsla(0deg, 0%, 100%, 0.75);
+  font-size: 15px;
+  margin-top: 2rem;
+}
+.container__sedan-btn {
+  box-sizing: border-box;
+  width: 8.2rem;
+  height: 2.2rem;
+  background-color: hsl(0deg, 0%, 95%);
+  color: hsl(31deg, 77%, 52%);
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 400;
+  border: none;
+  border-radius: 2rem;
+  font-size: 1rem;
+  transition: all 0.3s;
+  cursor: pointer;
+  margin-top: 5rem;
+  margin-bottom: 1.2rem;
+}
+.container__sedan-btn:hover {
+  background-color: transparent;
+  color: hsl(0deg, 0%, 95%);
+  border: 3px solid hsl(0deg, 0%, 95%);
+}
+.container__sedan-btn:active {
+  transform: scale(0.95);
+}
+.container__suv {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: hsl(184deg, 100%, 22%);
+  padding: 2rem 4.2rem 2rem 2.5rem;
+  max-width: 170px;
+}
+@media screen and (max-width: 740px) {
+  .container__suv {
+    max-width: 240px;
+  }
+}
+.container__suv-header {
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 400;
+  color: hsl(0deg, 0%, 95%);
+  text-transform: uppercase;
+  margin-top: 2rem;
+}
+.container__suv-text {
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 400;
+  color: hsla(0deg, 0%, 100%, 0.75);
+  font-size: 15px;
+  margin-top: 2rem;
+}
+.container__suv-btn {
+  box-sizing: border-box;
+  width: 8.2rem;
+  height: 2.2rem;
+  background-color: hsl(0deg, 0%, 95%);
+  color: hsl(184deg, 100%, 22%);
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 400;
+  border: none;
+  border-radius: 2rem;
+  font-size: 1rem;
+  transition: all 0.3s;
+  cursor: pointer;
+  margin-top: 5rem;
+  margin-bottom: 1.2rem;
+}
+.container__suv-btn:hover {
+  background-color: transparent;
+  color: hsl(0deg, 0%, 95%);
+  border: 3px solid hsl(0deg, 0%, 95%);
+}
+.container__suv-btn:active {
+  transform: scale(0.95);
+}
+.container__lux {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: hsl(179deg, 100%, 13%);
+  padding: 2rem 4.2rem 2rem 2.5rem;
+  max-width: 170px;
+}
+@media screen and (max-width: 740px) {
+  .container__lux {
+    max-width: 240px;
+  }
+}
+.container__lux-header {
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 400;
+  color: hsl(0deg, 0%, 95%);
+  text-transform: uppercase;
+  margin-top: 2rem;
+}
+.container__lux-text {
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 400;
+  color: hsla(0deg, 0%, 100%, 0.75);
+  font-size: 15px;
+  margin-top: 2rem;
+}
+.container__lux-btn {
+  box-sizing: border-box;
+  width: 8.2rem;
+  height: 2.2rem;
+  background-color: hsl(0deg, 0%, 95%);
+  color: hsl(179deg, 100%, 13%);
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 400;
+  border: none;
+  border-radius: 2rem;
+  font-size: 1rem;
+  transition: all 0.3s;
+  cursor: pointer;
+  margin-top: 5rem;
+  margin-bottom: 1.2rem;
+}
+.container__lux-btn:hover {
+  background-color: transparent;
+  color: hsl(0deg, 0%, 95%);
+  border: 3px solid hsl(0deg, 0%, 95%);
+}
+.container__lux-btn:active {
+  transform: scale(0.95);
+}
+
+/*# sourceMappingURL=style.css.map */
